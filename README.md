@@ -80,7 +80,6 @@ Key Features:
 
 ### 🏠 Executive Dashboard
 
-<img src="Atliq%20Dashboard/Home.png" width="100%">
 
 Key Features:
 
