@@ -1,133 +1,100 @@
 # AtliQ Business Insights 360 - Power BI Dashboard
 
+## 📊 Dashboard Preview
+
+![Dashboard Home](Atliq%20Dashboard/Home.png)
+
+---
+
 ## 📌 Project Overview
 
-Business Insights 360 is an end-to-end Business Intelligence solution developed for AtliQ Hardware using Power BI. The project focuses on transforming raw business data into actionable insights across Finance, Sales, Marketing, and Executive functions.
-
-The dashboard enables stakeholders to monitor business performance, analyze profitability, track revenue growth, and make data-driven decisions.
+Business Insights 360 is an end-to-end Business Intelligence solution developed for AtliQ Hardware using Power BI. The project provides actionable insights across Finance, Sales, Marketing, and Executive functions to support data-driven decision-making.
 
 ---
 
 ## 🎯 Business Problem
 
-AtliQ Hardware wanted a centralized analytics platform that could provide insights across multiple business departments.
+AtliQ Hardware required a centralized analytics solution to:
 
-The key objectives were:
-
-- Analyze company profitability through P&L statements.
-- Monitor sales performance across customers, products, and markets.
-- Evaluate marketing effectiveness and profitability.
-- Enable executives to track high-level KPIs and business performance.
-- Compare current performance against previous years using YoY analysis.
+- Monitor company-wide performance.
+- Analyze profitability through P&L statements.
+- Track sales across customers, products, and markets.
+- Evaluate marketing effectiveness.
+- Enable executive-level decision making through KPI monitoring.
 
 ---
 
-## 🛠 Tools & Technologies Used
+## 🛠 Tools & Technologies
 
 - Power BI
 - DAX
 - Power Query
-- MySQL
+- SQL (MySQL)
 - Data Modeling
 - Star Schema
 - Business Intelligence
 
 ---
 
-## 📊 Dashboard Views
+## 📈 Dashboard Views
 
-### Finance View
+### 💰 Finance View
 
-Key Metrics:
+<img src="Atliq%20Dashboard/Finance%20View.png" width="100%">
 
-- Gross Sales
-- Pre Invoice Deductions
-- Net Invoice Sales
-- Net Sales
-- Total COGS
-- Gross Margin
-- Net Profit
-- YoY Growth %
-
-Features:
+Key Features:
 
 - Dynamic P&L Statement
-- Year-over-Year Analysis
-- Market Performance Analysis
-- Net Sales Trend Analysis
+- YoY Growth Analysis
+- Gross Margin Tracking
+- Net Profit Analysis
+- Market Performance Insights
 
 ---
 
-### Sales View
+### 🛒 Sales View
 
-Key Metrics:
+<img src="Atliq%20Dashboard/Sales%20View.png" width="100%">
 
-- Net Sales
-- Gross Margin
-- Gross Margin %
-- Customer Performance
+Key Features:
 
-Features:
-
-- Customer Analysis
+- Customer Performance Analysis
 - Market Profitability Analysis
 - Segment Contribution Analysis
-- Sales Performance Monitoring
+- Revenue Distribution Insights
 
 ---
 
-### Marketing View
+### 📢 Marketing View
 
-Key Metrics:
+<img src="Atliq%20Dashboard/Marketing%20View.png" width="100%">
 
-- Net Sales
-- Gross Margin
-- Net Profit
-- Profitability %
+Key Features:
 
-Features:
-
-- Segment Performance Analysis
+- Segment Analysis
 - Regional Performance Analysis
-- Profitability Tracking
-- Market Contribution Analysis
+- Gross Margin Evaluation
+- Net Profit Monitoring
 
 ---
 
-### Executive View
+### 🏠 Executive Dashboard
 
-Features:
+<img src="Atliq%20Dashboard/Home.png" width="100%">
 
-- Business Summary
-- KPI Monitoring
-- Revenue Trends
-- Profitability Insights
-- Executive Decision Support
+Key Features:
 
----
-
-## 📈 Key KPIs Developed
-
-- Gross Sales
-- Pre Invoice Deduction
-- Net Invoice Sales
-- Post Invoice Deduction
-- Net Sales
-- Manufacturing Cost
-- Freight Cost
-- Total COGS
-- Gross Margin
-- Gross Margin %
-- Net Profit
-- Net Profit %
-- YoY Growth %
-- YoY Change
+- Company-wide KPI Monitoring
+- Cross-functional Business Insights
+- Executive Performance Overview
 
 ---
 
-## 🏗 Data Modeling
+## 🏗 Data Model
 
-A Star Schema data model was implemented to improve performance and ensure scalability.
+<img src="Atliq%20Dashboard/Atliq%20Data%20Model.png" width="100%">
+
+Implemented a Star Schema data model using Fact and Dimension tables to optimize report performance and scalability.
 
 ### Fact Tables
 
@@ -146,35 +113,52 @@ A Star Schema data model was implemented to improve performance and ensure scala
 
 ---
 
+## 📊 Key KPIs Developed
+
+- Gross Sales
+- Pre Invoice Deduction
+- Net Invoice Sales
+- Post Invoice Deduction
+- Net Sales
+- Manufacturing Cost
+- Freight Cost
+- Total COGS
+- Gross Margin
+- Gross Margin %
+- Net Profit
+- Net Profit %
+- YoY Growth %
+- YoY Change
+
+---
+
 ## 📚 Key Learnings
 
-Through this project I gained hands-on experience in:
-
-- Building end-to-end Power BI solutions
-- Designing star schema data models
-- Writing advanced DAX measures
-- Creating dynamic P&L statements
-- Implementing YoY calculations
-- Business KPI development
-- Dashboard storytelling and visualization
-- Transforming business requirements into analytical solutions
+- Built an end-to-end Business Intelligence solution using Power BI.
+- Created advanced DAX measures for financial reporting.
+- Designed and implemented a Star Schema data model.
+- Developed dynamic P&L statements and YoY analysis.
+- Applied business storytelling principles through dashboard design.
+- Connected business requirements with analytical solutions.
 
 ---
 
 ## 🚀 Future Enhancements
 
 - Supply Chain Analytics View
-- Advanced Forecasting Analysis
-- Row-Level Security (RLS)
+- Advanced Forecasting
 - Power BI Service Deployment
-- Automated Data Refresh
+- Automated Refresh Pipelines
+- Row-Level Security (RLS)
 
 ---
 
 ## 👨‍💻 Author
 
-** Mihir Saiya **
+**Mihir Saiya**
 
-B.Tech  AI & DS
+B.Tech AI & DS
 
 Aspiring Data Analyst | Data Engineer | AI/ML Enthusiast
+
+LinkedIn: https://www.linkedin.com/in/mihir-vipul-saiya-72412728b/
