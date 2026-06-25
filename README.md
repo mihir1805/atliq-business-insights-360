@@ -1,4 +1,4 @@
-# AtliQ Business Insights 360 - Power BI Dashboard
+# AtliQ Business Insights 360 – End-to-End Business Intelligence Solution
 
 ## 📊 Dashboard Preview
 
@@ -6,9 +6,20 @@
 
 ---
 
+## 📥 Power BI Dashboard
+
+Due to GitHub file size limitations, the complete Power BI (.pbix) file can be downloaded here:
+
+**🔗 Download Dashboard:**
+https://drive.google.com/file/d/127BXyENJwEKRecAcrPJrNlC0DYtIUW03/view?usp=drive_link
+
+---
+
 ## 📌 Project Overview
 
-Business Insights 360 is an end-to-end Business Intelligence solution developed for AtliQ Hardware using Power BI. The project provides actionable insights across Finance, Sales, Marketing, and Executive functions to support data-driven decision-making.
+AtliQ Business Insights 360 is an end-to-end Business Intelligence solution developed using **Power BI** and **SQL** to transform raw sales and financial data into actionable business insights.
+
+The dashboard enables Finance, Sales, Marketing, and Executive stakeholders to monitor KPIs, evaluate business performance, and make data-driven decisions through interactive visualizations and dynamic reporting.
 
 ---
 
@@ -16,23 +27,66 @@ Business Insights 360 is an end-to-end Business Intelligence solution developed 
 
 AtliQ Hardware required a centralized analytics solution to:
 
-- Monitor company-wide performance.
-- Analyze profitability through P&L statements.
-- Track sales across customers, products, and markets.
-- Evaluate marketing effectiveness.
-- Enable executive-level decision making through KPI monitoring.
+* Monitor overall business performance.
+* Analyze profitability through dynamic P&L statements.
+* Track sales across customers, products, markets, and channels.
+* Evaluate marketing effectiveness.
+* Monitor executive KPIs for strategic decision-making.
+* Improve reporting efficiency through an interactive dashboard.
 
 ---
 
 ## 🛠 Tools & Technologies
 
-- Power BI
-- DAX
-- Power Query
-- SQL (MySQL)
-- Data Modeling
-- Star Schema
-- Business Intelligence
+* Power BI
+* SQL (MySQL)
+* DAX
+* Power Query
+* Data Modeling
+* Star Schema
+* Business Intelligence
+
+---
+
+## 🗂 Project Workflow
+
+```
+Raw Dataset
+      │
+      ▼
+SQL Business Analysis
+      │
+      ▼
+Power Query (Data Transformation)
+      │
+      ▼
+Data Modeling (Star Schema)
+      │
+      ▼
+DAX Measures & KPIs
+      │
+      ▼
+Interactive Power BI Dashboard
+```
+
+---
+
+## 💾 SQL Business Analysis
+
+To complement the dashboard, SQL was used to perform business analysis and answer key analytical questions.
+
+The SQL analysis includes:
+
+* Gross Sales by Fiscal Year
+* Top Markets by Revenue
+* Customer Performance Analysis
+* Product Performance Analysis
+* Monthly Sales Trend
+* Sales by Customer Segment
+* Revenue by Division
+* Executive KPI Summary
+* Gross Sales by Product
+* Market-wise Revenue Analysis
 
 ---
 
@@ -42,13 +96,15 @@ AtliQ Hardware required a centralized analytics solution to:
 
 <img src="Atliq%20Dashboard/Finance%20View.png" width="100%">
 
-Key Features:
+**Key Features**
 
-- Dynamic P&L Statement
-- YoY Growth Analysis
-- Gross Margin Tracking
-- Net Profit Analysis
-- Market Performance Insights
+* Dynamic Profit & Loss Statement
+* Gross Sales Analysis
+* Net Sales Analysis
+* Gross Margin Analysis
+* Net Profit Analysis
+* YoY Growth Analysis
+* Market Performance
 
 ---
 
@@ -56,12 +112,13 @@ Key Features:
 
 <img src="Atliq%20Dashboard/Sales%20View.png" width="100%">
 
-Key Features:
+**Key Features**
 
-- Customer Performance Analysis
-- Market Profitability Analysis
-- Segment Contribution Analysis
-- Revenue Distribution Insights
+* Customer Performance
+* Product Performance
+* Sales Trend Analysis
+* Market Analysis
+* Customer Profitability
 
 ---
 
@@ -69,23 +126,27 @@ Key Features:
 
 <img src="Atliq%20Dashboard/Marketing%20View.png" width="100%">
 
-Key Features:
+**Key Features**
 
-- Segment Analysis
-- Regional Performance Analysis
-- Gross Margin Evaluation
-- Net Profit Monitoring
+* Segment Performance
+* Regional Performance
+* Gross Margin Analysis
+* Net Profit Analysis
+* Customer Insights
 
 ---
 
-### 🏠 Executive Dashboard
+### 👨‍💼 Executive Dashboard
 
+<img src="Atliq%20Dashboard/Executive%20View.png" width="100%">
 
-Key Features:
+**Key Features**
 
-- Company-wide KPI Monitoring
-- Cross-functional Business Insights
-- Executive Performance Overview
+* Company-wide KPI Monitoring
+* Revenue Overview
+* Profitability Summary
+* Cross-functional Insights
+* Executive Performance Dashboard
 
 ---
 
@@ -93,62 +154,76 @@ Key Features:
 
 <img src="Atliq%20Dashboard/Atliq%20Data%20Model.png" width="100%">
 
-Implemented a Star Schema data model using Fact and Dimension tables to optimize report performance and scalability.
+Implemented a **Star Schema** consisting of Fact and Dimension tables to improve report performance and scalability.
 
 ### Fact Tables
 
-- fact_sales_monthly
-- fact_forecast_monthly
-- fact_gross_price
-- fact_pre_invoice_deductions
-- fact_post_invoice_deductions
+* fact_sales_monthly
+* fact_forecast_monthly
+* gross_price
+* pre_invoice_deductions
+* post_invoice_deductions
 
 ### Dimension Tables
 
-- dim_customer
-- dim_product
-- dim_market
-- dim_date
+* dim_customer
+* dim_product
+* dim_market
+* dim_date
 
 ---
 
 ## 📊 Key KPIs Developed
 
-- Gross Sales
-- Pre Invoice Deduction
-- Net Invoice Sales
-- Post Invoice Deduction
-- Net Sales
-- Manufacturing Cost
-- Freight Cost
-- Total COGS
-- Gross Margin
-- Gross Margin %
-- Net Profit
-- Net Profit %
-- YoY Growth %
-- YoY Change
+* Gross Sales
+* Pre Invoice Deduction
+* Net Invoice Sales
+* Post Invoice Deduction
+* Net Sales
+* Manufacturing Cost
+* Freight Cost
+* Total COGS
+* Gross Margin
+* Gross Margin %
+* Net Profit
+* Net Profit %
+* YoY Growth %
+* YoY Change
 
 ---
 
-## 📚 Key Learnings
+## 🚀 Key Learnings
 
-- Built an end-to-end Business Intelligence solution using Power BI.
-- Created advanced DAX measures for financial reporting.
-- Designed and implemented a Star Schema data model.
-- Developed dynamic P&L statements and YoY analysis.
-- Applied business storytelling principles through dashboard design.
-- Connected business requirements with analytical solutions.
+* Built an end-to-end Business Intelligence solution using Power BI.
+* Performed SQL-based business analysis to answer analytical questions.
+* Developed advanced DAX measures for financial reporting.
+* Implemented a Star Schema data model.
+* Designed interactive dashboards for multiple business functions.
+* Applied business storytelling techniques to present actionable insights.
+
+---
+
+## 📂 Repository Structure
+
+```
+AtliQ-Business-Insights-360
+│
+├── Power BI Dashboard (.pbix)
+├── SQL Business Analysis
+├── Dashboard Screenshots
+├── Data Model
+└── README.md
+```
 
 ---
 
 ## 🚀 Future Enhancements
 
-- Supply Chain Analytics View
-- Advanced Forecasting
-- Power BI Service Deployment
-- Automated Refresh Pipelines
-- Row-Level Security (RLS)
+* Supply Chain Analytics Dashboard
+* Power BI Service Deployment
+* Automated Data Refresh
+* Row-Level Security (RLS)
+* Advanced Forecasting
 
 ---
 
@@ -156,8 +231,7 @@ Implemented a Star Schema data model using Fact and Dimension tables to optimize
 
 **Mihir Saiya**
 
-B.Tech AI & DS
+B.Tech Computer Science & Engineering (AI & DS)
 
 Aspiring Data Analyst | Data Engineer | AI/ML Enthusiast
 
-LinkedIn: https://www.linkedin.com/in/mihir-vipul-saiya-72412728b/
